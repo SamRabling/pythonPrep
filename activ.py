@@ -1,17 +1,17 @@
-string = 'spam and EGGS {}'
+# string = 'spam and EGGS {}'
 
 #print string.capitalize()
 #print string.upper()
 #print string.lower()
 #print string.lower().count('g')
 
-#print string.find('a')
-#print string.rindex('a')
+# print string.find('a')
+# print string.index('a')
 #print '*'.join(string)
 # print string.replace('GG', 'XX')
 #print string.format("don't")
 
-num = [6, 3, 5, 6, 29, 3, 7]
+# num = [6, 3, 5, 6, 29, 3, 7]
 
 #print len(num)
 #print max(num)
@@ -36,7 +36,19 @@ num = [6, 3, 5, 6, 29, 3, 7]
 #num.extend(num2)
 #print num
 
-print list("string")
+# print list("string")
 
+# def add(a,b):
+#     x = a + b
+#     return x
+# result = add(6,7)
+# print result
 
+weekend = {"sun": "sunday", "Sat": "Saturday"}
+capitals = {}
+capitals ["svk"] = "bratislava"
+capitals ["deu"] = "berlin"
+capitals ["dnk"] = "copenhagen"
 
+for key,data in capitals.iteritems():
+    print key, " = ", data
